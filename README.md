@@ -14,9 +14,9 @@
    4. Property Image, 
  
 6. Here The property data is loaded dynamically through different request. Also, the data is inside Javascript <script> tag as JSON response.
-   1. Splash
-   2. Plainwright
-   3. BeautifulSoup4 are the different ways to parse the JSON response from <script> Javascript
+   1. ``Splash``
+   2. ``Playwright``
+   3. ``BeautifulSoup4`` are the different ways to parse the JSON response from <script> Javascript
 
 ### Run scrapy project 
 run this command in terminal ``scrapy crawl vrbos``

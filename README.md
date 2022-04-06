@@ -26,6 +26,11 @@ run this command in terminal ``scrapy crawl vrbos``
 2. view(response)  #View Response in a browser
 3. If the desired data is hardcoded in JavaScript, you first need to get the JavaScript code: ``response.text``
 
-### Store data to pipeline 
+### Pass data to items.py
+1. ``items.py`` is the class that handles the items that can be stored in databases
+2. The items class should be initialized inside spider class
+
+### Store data to MYSQL through pipelines.py 
 1. Make sure the ``ITEM_PIPELINE`` is uncommented in ``settings.py``
 2. Also make sure Mysql workbench is login and mysql server is open
+3. run ``mysql -u root -p`` to login to mysql server in local
